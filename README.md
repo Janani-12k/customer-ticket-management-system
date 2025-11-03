@@ -1,3 +1,4 @@
+
 # 🎫 Customer Ticket Management System
 
 This project is a simple **Customer Ticket Management System** built using **Python and MySQL**.  
@@ -25,7 +26,6 @@ It helps manage customer complaints and issues efficiently by allowing you to cr
 
 ### 1️⃣ Create the Database and Table in MySQL
 Open MySQL and run:
-```sql
 CREATE DATABASE customer_support;
 
 USE customer_support;
@@ -35,6 +35,9 @@ CREATE TABLE tickets (
     customer_name VARCHAR(100),
     issue_description TEXT,
     status VARCHAR(50)
-);  i can directily add this in github repo
-
+);
+2️⃣ Install the Required Library
+pip install mysql-connector-python
+3️⃣ Run the Python Program
+python ticket_system.py
 
